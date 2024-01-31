@@ -1,12 +1,15 @@
-import "./App.css"
-import
+import { ProductCard } from "./components/common/ProductCard"
+import Navbar from "./components/layout/Navbar"
 
-
-function App() {
+const App= ()=> {
 
 
   return (
     <div>
+      <Navbar/>
+      <ItemListContainer/>
+      <ProductCard/>
+
       <h1 className="title">Titulo</h1>
     </div>
   )
