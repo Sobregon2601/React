@@ -1,14 +1,13 @@
 import "./App.css";
-import { Navbar } from "./Navbar";
-import { Footer } from "./Footer";
+import { Navbar } from "./components/layout//Navbar";
+import ItemListContainer from "./components/pages/ItemListContainer";
 
 function App() {
   return (
     <div>
       <h1 className="title">React</h1>
       <Navbar />
-      /main
-      <Footer />
+      <ItemListContainer />
     </div>
   );
 }
