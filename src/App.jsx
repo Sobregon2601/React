@@ -1,18 +1,16 @@
-import { ProductCard } from "./components/common/ProductCard"
-import Navbar from "./components/layout/Navbar"
+import "./App.css";
+import { Navbar } from "./Navbar";
+import { Footer } from "./Footer";
 
-const App= ()=> {
-
-
+function App() {
   return (
     <div>
-      <Navbar/>
-      <ItemListContainer/>
-      <ProductCard/>
-
-      <h1 className="title">Titulo</h1>
+      <h1 className="title">React</h1>
+      <Navbar />
+      /main
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
