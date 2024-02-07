@@ -4,7 +4,26 @@ const ItemListContainer = () => {
   return (
     <div>
       <h2>Productos</h2>
-      <ProductCard />
+      <ProductCard
+        producto={"Hombreras"}
+        desc={"Hombreras alcolchadas"}
+        precio={1200}
+      />
+      <ProductCard
+        producto={"Protector Bucal"}
+        desc={"Protector simple"}
+        precio={100}
+      />
+      <ProductCard
+        producto={"Tee"}
+        desc={"Pateador de plastico"}
+        precio={1000}
+      />
+      <ProductCard
+        producto={"Botines"}
+        desc={"Botines con tapones de aluminio"}
+        precio={1500}
+      />
     </div>
   );
 };
