@@ -3,7 +3,7 @@ import { ProductCard } from "../common/ProductCard";
 const ItemListContainer = () => {
   return (
     <div>
-      <h2>Productos</h2>
+      <h2 style={{ color: "white" }}>Productos</h2>
       <ProductCard
         producto={"Hombreras"}
         desc={"Hombreras alcolchadas"}

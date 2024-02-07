@@ -1,10 +1,11 @@
 import "./Navbar.css";
 import Cart from "../common/Cart";
+import { GiRugbyConversion } from "react-icons/gi";
 
 export const Navbar = () => {
   return (
     <div className="barraNav">
-      <h2>logo</h2>
+      <GiRugbyConversion size={80} />
       <nav className="barraNav">
         <ul className="barraNav">
           <li>Equipamiento</li>
