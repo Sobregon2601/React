@@ -1,9 +1,12 @@
 import { ProductCard } from "../common/ProductCard";
 
-const ItemListContainer = () => {
+const ItemListContainer = ({ greeting }) => {
   return (
     <div>
-      <h2 style={{ color: "white" }}>Productos</h2>
+      <div>
+        <h2 style={{ color: "white" }}>{greeting}</h2>
+      </div>
+      ;<h2 style={{ color: "white" }}>Productos</h2>
       <ProductCard
         producto={"Hombreras"}
         desc={"Hombreras alcolchadas"}

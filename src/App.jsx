@@ -7,7 +7,7 @@ function App() {
     <div className="main">
       <h1 className="title">Rugbydump</h1>
       <Navbar />
-      <ItemListContainer saludo={"Bienvenido a Rugbydumop"} />
+      <ItemListContainer greeting={"Bienvenido a Rugbydump"} />
     </div>
   );
 }
