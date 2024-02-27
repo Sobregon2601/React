@@ -1,4 +1,4 @@
-import { ProductCard } from "../common/ProductCard";
+import { ProductCard } from "../../common/ProductCard";
 
 const ItemListContainer = ({ greeting }) => {
   return (
@@ -30,5 +30,7 @@ const ItemListContainer = ({ greeting }) => {
     </div>
   );
 };
+
+return <ItemList />;
 
 export default ItemListContainer;
